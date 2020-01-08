@@ -65,7 +65,7 @@ map(
 # ------------------------------------------------------------------------------
 # purrr and list-columns (slide 12)
 
-ames_lst_col <- nest(mini_ames, data = c(Sale_Price, Yr_Sold))
+ames_lst_col <- nest(data = mini_ames, c(Sale_Price, Yr_Sold))
 ames_lst_col
 
 ames_lst_col %>%
